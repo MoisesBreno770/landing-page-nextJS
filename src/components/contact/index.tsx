@@ -4,7 +4,7 @@ import Styles from './contact.module.scss';
 import { Button } from '../button';
 import { Input } from '../input';
 import { Select } from '../select';
-import { useFormik } from 'formik';
+import { useFormik }  from 'formik';
 import * as Yup from 'yup';
 
 import axios from "axios";

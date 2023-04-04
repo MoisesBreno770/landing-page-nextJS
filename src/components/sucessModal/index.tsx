@@ -2,6 +2,7 @@ import { FiCheckCircle } from "react-icons/fi";
 
 import styles from "./styles.module.scss";
 import { Button } from "../button";
+import { ServerResponseModalProps } from "@/interfaces";
 
 export function SuccessModal({ closeModal }: ServerResponseModalProps) {
   return (

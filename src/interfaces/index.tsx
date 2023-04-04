@@ -1,4 +1,4 @@
-interface ButtonProps {
+export interface ButtonProps {
     title: string;
     kind?: string;
     onClick?: any;
@@ -6,7 +6,7 @@ interface ButtonProps {
     action?: any;
 }
 
-interface InputProps {
+export interface InputProps {
     type : string; 
     placeholder: string;
     pattern?: string;
@@ -18,7 +18,7 @@ interface InputProps {
     value: string;
 }
 
-interface SelectProps {
+export interface SelectProps {
     placeholder: string;
     required: any; 
     options: any;
@@ -29,6 +29,6 @@ interface SelectProps {
     value?: string;
 }
 
-interface ServerResponseModalProps {
+export interface ServerResponseModalProps {
     closeModal?: () => void;
 }

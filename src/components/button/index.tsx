@@ -1,3 +1,4 @@
+import { ButtonProps } from '../../interfaces';
 import Styles from './button.module.scss';
 
 export const Button = ( {title, kind, onClick, type = 'submit'} : ButtonProps) => {

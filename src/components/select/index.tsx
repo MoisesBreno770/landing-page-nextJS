@@ -1,3 +1,4 @@
+import { SelectProps } from '@/interfaces';
 import Styles from './select.module.scss';
 
 export const Select = ({ placeholder, required, options, onChange, onBlur, name, id, value }: SelectProps) => {

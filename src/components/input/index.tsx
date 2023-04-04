@@ -1,3 +1,4 @@
+import { InputProps } from '@/interfaces';
 import Styles from './input.module.scss';
 
 export const Input = ({type, value, placeholder, pattern, required, onBlur, name, id, onChange}: InputProps) => {
